@@ -1,0 +1,47 @@
+body{
+  background-color: blue;
+}
+.App {
+  text-align: center;
+  display: flex;
+  justify-items: center;
+  text-align: center;
+  gap: 30px;
+  position: relative;
+  top: 50px;
+  left: 80px;
+}
+.child1,.child2,.child3{
+  width: 350px;
+  height: 525px;
+  background-color: white;
+  border-radius: 30px;
+}
+.child1:hover,.child2:hover,.child3:hover{
+  margin-top: 5px;
+}
+button{
+  width: 250px;
+  height: 50px;
+  background: lightblue;
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: blue;
+}
+.period{
+  font-size: small;
+}
+
+.parent2{
+  margin-left:70px;
+  text-align: left;
+}
+.card hr{
+  margin: 1.5rem;
+}
